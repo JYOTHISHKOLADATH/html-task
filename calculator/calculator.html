@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MY CALCULATOR</title>
+    <link rel="stylesheet" href="./calculator.css">
+</head>
+<body>
+    <center>
+    <div id="main">
+        <input id="screen" type="text" onfocus="this.value=''">
+        <div id="btns">
+            <button onclick="clr()" id="ac">AC</button>
+            <button onclick="dlt()">DEL</button>
+            <button onclick="display('/')">÷</button>
+            <button onclick="display('*')">X</button>
+            <button onclick="display(7)">7</button>
+            <button onclick="display(8)">8</button>
+            <button  onclick="display(9)">9</button>
+            <button onclick="display('-')">-</button>
+            <button onclick="display(4)">4</button>
+            <button onclick="display(5)">5</button>
+            <button onclick="display(6)">6</button>
+            <button onclick="display('+')">+</button>
+            <button onclick="display(1)">1</button>
+            <button onclick="display(2)">2</button>
+            <button onclick="display(3)">3</button>
+            <button onclick="display('.')">.</button>
+            <button onclick="display(0)">0</button>
+            <!-- <button>.</button> -->
+            <button onclick="calculate()" id="eq">=</button>
+         
+            
+        </div>
+    </div>
+</center>
+    <script src="./calculator.js"></script>
+</body>
+</html>

@@ -1,0 +1,178 @@
+.container{
+    background-image: url(./hamburger-190807-800x450.jpg);
+    width: 100%;
+    height:800px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    
+}
+.div1{
+    color: aliceblue;
+    width: 280px;
+    margin-block-start: 60px;
+    margin-inline: 30px;
+    display: flex;
+    flex-direction: column;
+    /* animation: expand 1s ease-out 1s ; */
+
+}
+.head1{
+    font-size: 90px;
+    width: 860px;
+    border-bottom: 10px solid white;
+}
+.para1{
+    width: 660px;
+    /* align-items: flex-end; */
+    margin: 40px;
+    justify-content:center ;
+    background-color: rgba(112, 103, 103, 0.277);
+    flex-wrap: wrap;
+}
+.link1{
+    color:ivory;
+    float: right;
+}
+.div2{
+    display: flex;
+
+}
+.menu{
+    background-color: chartreuse;
+    width: 680px;
+    text-align: end;
+    height: 50px;
+    margin-top: 40px;
+}
+.im1{
+    position: absolute;
+    left: 45px;
+    top: 870px;
+
+  
+}
+.im1 img{
+    height: 400px;
+    width: 350px;
+}
+.para2{
+    width: 340px;
+    color: blueviolet;
+    margin-top: 240px;
+    position: relative;
+    right: 150px;
+    font-weight: bolder;
+    font-size: 18px;
+    border-bottom: 35px solid black;
+    margin-bottom: 10px;
+    height: 400px;
+    width: 800px;
+    border-bottom-left-radius: 100px;
+
+}
+.im2{
+    margin-top: 250px;
+    flex-wrap: wrap;
+    
+}
+.im2 img{
+    width: 300px;
+    height: 550px;
+}
+.div3{
+    background-image: url(./coock2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 800px;
+}
+.ch{
+    position: relative;
+    font-size: 40px;
+    color: aliceblue;
+    margin: 20px;
+    
+}
+.parac1{
+    color: rgb(252, 249, 246);
+    font-size: 25px;
+    width: 670px;
+    position: absolute;
+    right: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    top: 1800px;
+}
+.cards{
+    display: flex;
+    position: relative;
+    top: 90px;
+}
+.card1{
+    margin: 20px;
+    width: 33%;
+    background-color: rgba(240, 248, 255, 0.432);
+    color: black;
+}
+.card2{
+    width: 33%;
+    background-color: rgba(0, 0, 0, 0.359);
+    color: orange;
+    margin: 20px;
+}
+.card3{
+    width: 33%;
+    color: aliceblue;
+    background-color: rgba(255, 166, 0, 0.495);
+    margin: 20px;
+    
+}
+.c11{
+    text-align: center;
+    font-size: 30px;
+}
+.c12{
+    text-align: center;
+    font-size: 25px;
+}
+.c13{
+    text-align: center;
+    margin: 10px;
+}
+.c21{
+    text-align: center;
+    font-size: 30px;
+}
+.c22{
+    text-align: center;
+    font-size: 25px;
+}
+.c23{
+    text-align: center;
+    margin: 10px;
+}
+.c31{
+    text-align: center;
+    font-size: 30px;
+}
+.c32{
+    text-align: center;
+    font-size: 25px;
+}
+.c33{
+    text-align: center;
+    margin: 10px;
+}
+
+
+/* @keyframes expand{
+    from{
+        width: 0px;
+    }
+    to{
+        width: 280px ;
+    }
+} */
+

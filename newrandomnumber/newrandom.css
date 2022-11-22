@@ -1,0 +1,36 @@
+#container{
+    background-image: url(./brandi-redd-aJTiW00qqtI-unsplash.jpg);
+    background-size: 100% 100%;
+    width: 1550px;
+    height: 750px;
+}
+#inp{
+    position: absolute;
+    top: 360px;
+    left: 590px;
+    text-align: center;
+}
+input{
+    height: 30px;
+    width: 300px;
+}
+#check{
+    background-color: rgba(0, 0, 0, 0.079);
+    position: absolute;
+    top: 430px;
+    left: 700px;
+    height: 30px;
+    width: 90px;
+}
+#feedback{
+    /* position: absolute; */
+    /* top: 290px; */
+    /* left: 630px; */
+
+}
+#fd{
+    position: absolute;
+    text-align: center;
+    width: 1500px;
+    top: 250px;
+}

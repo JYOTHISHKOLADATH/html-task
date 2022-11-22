@@ -1,0 +1,201 @@
+h3{
+    border: 3px solid black;
+    width: 840px;
+
+  }
+ .container{
+    background-color: yellow;
+    height: 1020px;
+    width: 840px;
+    border: 2px solid black;
+
+  }
+ .header{
+    background-color: red;
+    margin: 20px;
+    height: 300px;
+    width: 800px;
+    border: 2px solid black;
+  }
+ .headerlogo{
+    background-color: aqua;
+    width: 200px;
+    height: 150px;
+    margin: 30px;
+    display: inline-flex;
+    border: 2px solid black;
+
+    
+  }
+ .headermain{
+    background-color: rgb(251, 1, 180);
+  margin: 20px;
+  height: 150px;
+  width: 200;
+  display:inline-flex;
+  border: 2px solid black;
+  
+  
+  }
+ .headermainbody{
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 30px;
+    float: left;
+    border: 2px solid black;
+
+
+  }
+ .toolbar{
+    background-color: gray;
+    margin-top: 20px;
+    height: 70px;
+    margin: 10px;
+    border: 2px solid black;
+  }
+.toolbarbody{
+  background-color: aliceblue;
+  margin: 20px;
+  margin-bottom: 40px;
+  border: 2px solid black;
+}
+.nav{
+  background-color: aqua;
+  height: 450px;
+  width: 250px;
+  margin: 20px;
+  display: inline-block;
+  position: absolute;
+  border: 2px solid black;
+
+
+}
+.navmain{
+  background-color: chartreuse;
+  display: block;
+  height: 180px;
+  width: 170px;
+  margin: 35px;
+  border: 2px solid black;
+}
+.navads{
+  background-color: chartreuse;
+  display: block;
+  height: 170px;
+  width: 170px;
+  margin: 35px;
+  border: 2px solid black;
+
+}
+.navmaintitle{
+  background-color: aliceblue;
+  display: block;
+  height: 30px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.navmainbody{
+  background-color: aliceblue;
+  display: block;
+  margin-top: 20px;
+  height: 30px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.navadstitle{
+  background-color: aliceblue;
+  margin-top: 20px;
+  height: 30px;
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid black;
+
+}
+.navadsbody{
+  background-color: aliceblue;
+  margin-top: 20px;
+  height: 30px;
+  margin: 20px;
+  padding: 10px ;
+  border: 2px solid black;
+}
+.content{
+  background-color: blue;
+  height: 450px;
+  width: 400px;
+  display: inline-block;
+  position: relative;
+  margin-left: 350px;
+margin-top: 21px;
+border: 2px solid black;
+  
+}
+.breadcrumb{
+  background-color: aliceblue;
+  margin: 20px;
+  height: 60px;
+  border: 2px solid black;
+}
+.breadcrumbselected{
+background-color: chartreuse;
+margin: 10px;
+border: 2px solid black;
+}
+.contentinfo{
+  background-color: chartreuse;
+  margin: 20px;
+  height: 140px;
+  border: 2px solid black;
+  
+}
+.contentinfotitle{
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.contentinfobody{
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.contentmain{
+  background-color: deeppink;
+  margin: 20px;
+  height: 150px;
+  border: 2px solid black;
+}
+.contentmaintitle{
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.contentmainbody{
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}
+.footer{
+  background-color: crimson;
+  margin: 20px;
+  height: 130px;
+  width: 800px;
+  border: 2px solid black;
+}
+.footertitle{
+  background-color: aliceblue;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid black;
+}
+.footerbody{
+  background-color: aliceblue;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+}

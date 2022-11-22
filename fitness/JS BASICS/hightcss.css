@@ -1,0 +1,25 @@
+.div1{
+ background-color: black;
+ width: 100%;
+ height: 400px;
+}
+#he{
+    color:white;
+    text-align: center;
+}
+#form1{
+
+    /* align-content: ; */
+    color: whitesmoke;
+    font-weight: bold;
+    
+}
+#bt{
+    color: white;
+    background-color: red;
+
+    
+}
+#out{
+    color:black;
+}

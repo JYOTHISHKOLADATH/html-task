@@ -1,0 +1,12 @@
+#container{
+    background-image: url(./3d-render-notebook-mock-up-with-clean-blank-design-advertising-3d-illustration-perspective-view.jpg);
+    width: 100%;
+    height: 700px;
+}
+button{
+    height: 70PX;
+    width: 70px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.189);
+    border-width: 0px;
+}

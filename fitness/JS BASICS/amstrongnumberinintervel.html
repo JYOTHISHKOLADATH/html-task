@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amstrong number in an intervel</title>
+</head>
+<body>
+    <script>
+        n=prompt("enter the limit");
+        
+        for(i=1;i<=n;i++){
+            temp=i;
+            sum=0;
+            while(temp>0){
+                r=temp%10;
+                sum+=r**3
+                temp=parseInt(temp/10)
+            }
+            if(sum==i) {
+                document.write(" "+i)
+                
+            }
+            
+               
+            
+
+
+        }
+    </script>
+</body>
+</html>

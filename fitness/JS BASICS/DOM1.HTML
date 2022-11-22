@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" id="textbox">
+    <input type="button" value="click here" id="click" onclick="display()">
+    <!-- <button onclick="display()"> click here</button> -->
+    <h1 id="out">
+
+    </h1>
+    <script>
+        function display(){
+       x = document.getElementById("textbox").value
+        let temp=x;
+        sum=0
+        while(temp>0){
+            let reminder = temp%10;
+            sum+=reminder**3;
+            temp=parseInt(temp/10)
+        }
+        if(sum==x){
+            document.getElementById("out").innerHTML="The number:"+x+" "+"IS AMSTRONG"
+        }else{
+            document.getElementById("out").innerHTML="The number:"+x+" "+"IS NOT AMSTRONG"
+        }
+    }
+
+
+    </script>
+    
+</body>
+</html>
